@@ -1,0 +1,49 @@
+h1 {
+  padding: 50px;
+  font: 100px 'Baloo Bhai 2', Helvetica, Arial, sans-serif !important;
+}
+
+body {
+  padding: 50px;
+  font: 14px 'Baloo Bhai 2', Helvetica, Arial, sans-serif !important;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.icon {
+  padding: 50px;
+}
+
+.cb {
+  padding: 10px;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  border: 3px solid red;
+  padding: 10px 10px 75px 10px;
+}
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(2);
+  padding: 10px;
+}
+
+/* Might want to wrap a span around your checkbox text */
+.checkboxtext
+{
+  /* Checkbox text */
+  font: 24px 'Baloo Bhai 2', Helvetica, Arial, sans-serif !important;
+  display: inline;
+  padding-left: 15px;
+}
