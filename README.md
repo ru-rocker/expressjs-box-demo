@@ -8,4 +8,4 @@ The docker image is pushed in https://hub.docker.com/r/rurocker/boxdemo.
 # Run
 
     # BOX_COLOR : any valid css color
-    docker run rurocker/boxdemo:args -e BOX_COLOR='orange'
+    docker run -e BOX_COLOR='orange' -p3000:3000 rurocker/boxdemo:args
