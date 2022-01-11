@@ -8,4 +8,4 @@ The docker image is pushed in https://hub.docker.com/r/rurocker/boxdemo.
 # Run
 
     # BOX_COLOR : any valid css color
-    docker run -p3000:3000 rurocker/boxdemo:random
+    docker run --rm -p3000:3000 rurocker/boxdemo:random
