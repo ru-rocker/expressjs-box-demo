@@ -13,3 +13,14 @@ The docker image is pushed in https://hub.docker.com/r/rurocker/boxdemo.
 
     #green
     docker run --rm -p3000:3000 rurocker/boxdemo:green
+
+# URL
+
+##### Main page
+http://localhost:3000/ 
+
+##### Readiness
+http://localhost:3000/health-check/readiness
+
+##### Liveness
+http://localhost:3000/health-check/liveness
